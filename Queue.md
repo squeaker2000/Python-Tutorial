@@ -56,4 +56,4 @@ Your friend asks you if you can help them out with their business by making a pr
     January 1 - Dec 10 order was completed
     January 2 - Oct 19 order was completed
     
-You can check you code here: "still completing solution, will add here when complete."
+You can check you code here: "still completing solution, will add here soon when complete."
