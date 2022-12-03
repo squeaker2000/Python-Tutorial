@@ -1,9 +1,38 @@
 # Sets
+A set is a list of data, except the order does not matter in a set like it does in a stack or queue.  Another quality about sets is they do not allow duplicates.  This no duplicates rule makes it simpler to store information since we do not care about order in a set.
 
 # Hashing
+Hashing is a technique we use to test the set to check if the data we're looking for is in the set.  Hashing is also used to add and remove from the data set.
+
+// Add more information here to further explain //
+
+    # hash for integer unchanged
+    print('Hash for 181 is:', hash(181))
+    # hash for decimal
+    print('Hash for 181.23 is:',hash(181.23))
+    # hash for string
+    print('Hash for Python is:', hash('Python'))
+    
+    Output:
+    Hash for 181 is: 181
+    Hash for 181.23 is: 530343892119126197
+    Hash for Python is: 3607259692854166150
 
 # Open addressing and chaining
+When we are using python, we use open addressing to handle collisions.  If we are trying to add something in a specific spot in our set, oped addressign will tell us that spot is occupied by another data value already.  We will then know to try the next spot.
+
+// Add an example photo here to demonstrate //
+
+Another mthod we use to handle collisions is called chaining.  Instead of telling us to use a different spot for our datda like how open addressign does, we use chaining to make another list of data that can all fit into the same spot.
+
+// Add an example photo here to demonstrate //
 
 # Example
 
-# 
+// I want to put an example of simple hashing here //
+
+// I also want an example of open addressing //
+
+// I also want an exmaple of chaining //
+
+# Problem to solve
