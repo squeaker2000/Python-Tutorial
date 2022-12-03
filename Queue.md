@@ -7,6 +7,8 @@ LIFO is short for last in first out.  LIFO is used when implementing stack, it i
 # FIFO
 FIFO is the complete opposite of LIFO.  It stands for first in first out.  Versus LIFO, where we are taking the last item out of the list, for FIFO we are taking the first item out of the list.  A good real life example of this is a reservation list at a restaraunt.  Typically, when a restaraunt takes reservations, the person at the top of the list gets seated first, no matter how long other people have been waiting.  Just like this, the fist item we have in our list is the first item to get removed from the list ot be "seated."
 
+// Add an example photo here to demonstrate //
+
 Example:
 Lets say we have a list here of people waiting to be seated at a restaraunt.
 
