@@ -22,26 +22,26 @@ A few minutes go by and we now have three tables available.  This means we can n
         
 As you can see in this example, the first item in the list will always be the first item removed when using FIFO.
 
-In python, we will use the commands dequeue and enque.  Dequeue is used to remove the first item in the list.  Enqueue is used to add another item to the list, this will add the item at the end of the list.
+In python, we will use the commands insert and pop.  pop is used to remove the first item in the list.  Append is used to add another item to the list, this will add the item at the end of the list.
 
 Python example:
 
     #Here, we are adding items to our list by using enqueue
-    queue.enqueue("Joan")
-    queue.enqueue("Bridgett")
-    queue.enqueue("Alex")
-    queue.enqueue("Stephanie")
-    queue.enqueue("John")
-    queue.enqueue("Garrett")
+    queue.append("Joan")
+    queue.append("Bridgett")
+    queue.append("Alex")
+    queue.append("Stephanie")
+    queue.append("John")
+    queue.append("Garrett")
 
     #Here, we are removing items form our list by using dequeue
-    result = queue.dequeue()
+    result = queue.pop(0)
     print(result)
-    result = queue.dequeue()
+    result = queue.pop(0)
     print(result)
-    result = queue.dequeue()
+    result = queue.pop(0)
     print(result)
-    result = queue.dequeue()
+    result = queue.pop(0)
     print(result)
     
 # Problem to Solve
