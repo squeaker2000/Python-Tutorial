@@ -59,7 +59,7 @@ Here is an example of how we can do this in python:
 # Balanced Binary Search Tree
 A balanced binary search tree is a tree in which at every node, its left subtree and right subtree have an equal height.  If they do not have an equal height, their height can only differ by 1.
 
-![image](https://user-images.githubusercontent.com/75501838/207479904-389b8762-b419-49a5-985e-6e8ed037f239.png)
+![image](https://user-images.githubusercontent.com/75501838/207480479-1480417a-3569-4f19-bde9-ac4d436bdff2.png)
 
 Here is an example of how we can do this in python:
 
