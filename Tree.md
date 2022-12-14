@@ -42,7 +42,7 @@ Here is an example of how we can make this tree in python:
 # Binary Search Tree
 A binary search tree folows rules for the data you want to put into the tree.  In a BST (binary search tree), the data will be compared to the data in its parent node.  Is the data is less than the parent node, it will be added to the left of the tree.  If the data is larger than the parent node, it will be added to the right of the tree.  The purpose of doing this is to sort out and organize your data.
 
-![image](https://user-images.githubusercontent.com/75501838/207479787-e5bf62c8-a030-4817-ac64-bde6a9274762.png)
+![image](https://user-images.githubusercontent.com/75501838/207480538-dea6fce8-4131-4110-a724-3c9611645772.png)
 
 Here is an example of how we can do this in python:
 
@@ -86,8 +86,36 @@ Here is an example of how we can do this in python:
         preOrder(node.left) 
         preOrder(node.right) 
 
-# Operations
-
-# Example
-
 # Problme to Solve
+Write a Python program to convert a given array elements to a height balanced Binary Search Tree (BST)
+
+# Solution
+        class TreeNode(object):
+            def __init__(self, x):
+                self.val = x
+                self.left = None
+                self.right = None
+
+        def array_to_bst(array_nums):
+            if not array_nums:
+                return None
+            mid_num = len(array_nums)//2
+            node = TreeNode(array_nums[mid_num])
+            node.left = array_to_bst(array_nums[:mid_num])
+            node.right = array_to_bst(array_nums[mid_num+1:])
+            return node
+
+        def preOrder(node): 
+            if not node: 
+                return      
+            print(node.val)
+            preOrder(node.left) 
+            preOrder(node.right)   
+
+        array_nums = [1,2,3,4,5,6,7]
+
+        print("Original array:")
+        print(array_nums)
+        result = array_to_bst(array_nums)
+        print("\nArray to a height balanced BST:")
+        print(preOrder(result))
