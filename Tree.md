@@ -1,7 +1,7 @@
 # Tree
 A tree is a data structure in which its datat items are connected by usign references.  Trees are made up of nodes.  The different types of trees are binary trees, binary search trees, and balanced binary search trees.  We will talk about each of these.  Before we go into details of each tree, it is important to learn the different parts of a tree first.
 
-// Add an image of a simple binary tree to demonstrate each part of the tree adn what they are //
+![image](https://user-images.githubusercontent.com/75501838/207478694-fcaf6923-09a6-47f9-b178-8fffb53d7801.png)
 
 Root node: Each tree begins with a root node.  This is the beginning of the tree that we use to access each element connected to the tree.
 
