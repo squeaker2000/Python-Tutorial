@@ -47,16 +47,15 @@ Python example:
     print(result)
     
 # Problem to Solve
-Your friend asks you if you can help them out with their business by making a program that will help them keep track of their incoming and completed orders.  You know using a queue will probably be the best option to help your friend out.
- 
- For this problem, you will need to make a program that uses a queue to keep track of what orders your friend has completed and not completed.  Use the following information in your test cases:
- 
-    On September 11 - a new order came in
-    September 28 - new order came in
-    October 19 - new order came in
-    December 10 - new order came in
-    January 1 - Dec 10 order was completed
-    January 2 - Oct 19 order was completed
+Write a Python program to create a FIFO queue.
     
 # Solution
-// Add solution here //
+        import queue
+        q = queue.Queue()
+        #insert items at the end of the queue 
+        for x in range(4):
+                q.put(str(x))
+        #remove items from the head of the queue 
+        while not q.empty():
+                print(q.get(), end=" ")
+        print("\n")
